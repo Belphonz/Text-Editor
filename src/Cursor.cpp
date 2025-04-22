@@ -1,4 +1,4 @@
-#include "Cursor.h"
+#include <Cursor.h>
 
 Cursor::Cursor() : Cursor(0, 0){};
 

@@ -1,4 +1,4 @@
-#include "EditorContent.h"
+#include <EditorContent.h>
 
 EditorContent::EditorContent(TextDocument &textDocument) :
     document(textDocument) {

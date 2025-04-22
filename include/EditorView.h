@@ -3,7 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <cmath>
-#include "EditorContent.h"
+#include <EditorContent.h>
 
 class EditorView {
    public:
@@ -19,7 +19,7 @@ class EditorView {
     void scrollLeft(sf::RenderWindow &window);
     void scrollRight(sf::RenderWindow &window);
 
-    void scrollTo(float x, float y);
+   // void scrollTo(float x, float y);
 
     void rotateLeft();
     void rotateRight();
@@ -36,8 +36,8 @@ class EditorView {
     sf::View getCameraView();
     void setCameraBounds(int width, int height);
 
-    void setDeltaScroll(float delta);
-    void setDeltaRotation(float delta);
+    //void setDeltaScroll(float delta);
+   // void setDeltaRotation(float delta);
 
     // TODO: Replace std::pair with coordinates object
     std::pair<int,int> getDocumentCoords(float mouseX, float mouseY);

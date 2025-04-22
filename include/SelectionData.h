@@ -47,8 +47,8 @@ class SelectionData {
     //       por ejemplo cuando muevo con ctrl shift de a palabras, esto no serviria en ese caso
     //       tendria que hacer un "moveSelectionsToNextWord" o algo asi
     // TODO: Handlear que pasa cuando las selecciones chocan, ver el merge
-    void moveSelectionsRight(int charAmount, const TextDocument &doc);
-    void moveSelectionsLeft(int charAmount, const TextDocument &doc);
+   // void moveSelectionsRight(int charAmount, const TextDocument &doc);
+    //void moveSelectionsLeft(int charAmount, const TextDocument &doc);
 
     static int getStartLineN(Selection &selection);
     static int getStartCharN(Selection &selection);

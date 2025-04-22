@@ -1,4 +1,4 @@
-#include "SelectionData.h"
+#include <SelectionData.h>
 
 SelectionData::SelectionData() : lastSelectionIndex(-1) {}
 
